@@ -24,10 +24,10 @@ The prompt collects campaign inputs interactively, confirms the brief, then gene
 Campaign brief confirmed by Marketing Manager
 |
 v
-P01 - Promotional Email Copywriter
+P01 - Promotional Email Copywriter  <-- this prompt
 |
 v
-P02 - Social Media Caption Pack
+P02 - Instagram Caption Copywriter
 |
 v
 P03 - Campaign Performance Summary
@@ -45,6 +45,9 @@ Marketing coordinators at Foot Locker Australia spend significant time manually 
 Estimated manual time per campaign email: 45-60 minutes.
 Estimated time with P01: 5-7 minutes (brief input + review).
 
+This aligns with broader industry evidence: in retail and e-commerce, personalised and well-structured emails deliver up to 41% higher click-through rates compared to generic ones (Opensend, 2025), and AI-assisted content consistently improves CTR and message relevance at scale (HubSpot, 2025). 
+For a lean marketing team running 4+ campaigns per month, the compounding cost of manual drafting is a direct operational risk.
+
 
 ## Automation Potential
 
@@ -61,6 +64,12 @@ Fill brief -> review output -> minor edits -> approve for send. No full rewrite 
 **Scale potential:**
 4 campaigns/month = approximately 15-20 hours saved annually on email drafting alone, before accounting for A/B subject line testing or localisation across states.
 
+ This is consistent with Morgan Stanley's analysis (2024) that AI automation can bring efficiency to up to 70% of routine marketing tasks in retail, and with Shopify's finding (2025) that 94% of retailers using AI have seen measurable reductions in operating costs. 
+ As Foot Locker Australia's campaign frequency grows or localisation across states is introduced, the time saving scales proportionally without additional headcount.
+
+## Integration potential:
+This prompt could eventually be triggered directly from a campaign management system, with brief fields pre-populated from the campaign calendar, reducing manual input time further. At that stage, the human role shifts entirely to review and approval.
+
 
 ## Risks and Limitations
 
@@ -70,12 +79,13 @@ Fill brief -> review output -> minor edits -> approve for send. No full rewrite 
 | False urgency or unverifiable stock claims | Medium | Output rules explicitly prohibit unverifiable stock claims; compliance notes are collected as a required input field |
 | Australian Consumer Law breach (misleading conduct) | Medium | Coordinator reviews all urgency and offer language before approval; exclusion notes captured in Step 1 inputs |
 | Tone mismatch during sensitive periods | Low | Campaign type input flags the context; coordinator can override tone before approval |
-| Output not matching confirmed campaign brief | Low | Step 2 brief confirmation is built into the prompt - AI restates the brief before generating, giving the coordinator a checkpoint to catch errors |
 | Over-reliance reducing in-house copywriting skill | Low | P01 is positioned as a drafting aid, not a replacement; human review is retained at all times |
 
 **Overall risk rating: LOW** - suitable for regular use with lightweight human review before send.
 
-
+## References
+Opensend (2025). Email Click-Through Rate Statistics for eCommerce Stores. Retrieved from https://www.opensend.com/post/email-click-through-rate-ecommerce
+Shopify (2025). AI in Retail: Use Cases and Implementation Guide. Retrieved from https://www.shopify.com/enterprise/blog/ai-in-retail
 
 ## Version History
 

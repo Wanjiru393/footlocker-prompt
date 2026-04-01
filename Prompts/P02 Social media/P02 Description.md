@@ -50,6 +50,8 @@ Social media coordinators at Foot Locker Australia manually write Instagram capt
 Estimated manual time per campaign caption set: 20-30 minutes including revisions.
 Estimated time with P02: 5-8 minutes (brief input + review).
 
+Instagram is Foot Locker Australia's primary social channel for campaign launches and product drops. 
+The AI marketing automation market in retail and e-commerce is projected to grow at a CAGR of 15.89% through 2032 (Kings Research, 2024), driven by the proven productivity gains of automating repetitive content tasks. For a lean marketing team, eliminating manual caption drafting from each campaign cycle directly reduces cost and turnaround time without compromising brand quality.
 ---
 
 ## Automation Potential
@@ -64,8 +66,12 @@ Estimated time with P02: 5-8 minutes (brief input + review).
 **Human-in-the-loop role:**
 Fill brief -> review 2 variants -> select preferred or blend elements -> approve for scheduling. No full rewrite expected.
 
-**Scale potential:**
-4 campaigns/month x 2 caption variants = approximately 8-10 hours saved annually on Instagram copy alone, before accounting for A/B testing or additional post formats (Stories, Reels).
+## Scale potential:
+At 4 campaigns per month, it saves approximately 8-10 hours annually on Instagram caption drafting alone. This figure scales significantly when additional post types are considered: Stories, Reels, and paid social ads all follow the same brief-to-copy pattern. 
+Shopify (2025) reports that 94% of retailers using AI have seen reduced operating costs, and AI adoption in marketing automation specifically has reached 48.9% among eCommerce professionals (AllAboutAI, 2025).
+
+## Integration potential:
+This prompt could be integrated with a social media scheduling tool so that approved captions are pushed directly to the content calendar, removing the manual copy-paste step entirely and reducing the coordinator role to a single approval click.
 
 ---
 
@@ -80,6 +86,11 @@ Fill brief -> review 2 variants -> select preferred or blend elements -> approve
 | Over-reliance reducing in-house social media skill | Low | P02 is positioned as a drafting aid, not a replacement; human review retained at all times |
 
 **Overall risk rating: LOW** - suitable for regular use with lightweight human review before publishing.
+
+## References
+
+AllAboutAI (2025). AI in Retail Statistics 2025: The $14.49B Market Transforming Global Commerce. Retrieved from https://www.allaboutai.com/resources/ai-statistics/ai-in-retail/
+Kings Research (2024). AI in the Marketing Automation Market 2032 - Size & Share. Retrieved from https://www.kingsresearch.com/report/ai-in-the-marketing-automation-market-3042
 
 ---
 
